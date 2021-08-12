@@ -139,10 +139,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="EX1Q7.cpp" />
+    <ClInclude Include="reverse.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="reverse.h" />
+    <ClCompile Include="EX1Q7.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
