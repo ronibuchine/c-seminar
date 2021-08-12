@@ -4,6 +4,9 @@
 #include <stdio.h>
 #pragma warning(disable:4996)
 
+/**
+ * @brief main program accepts input of 1 char at a time and terminates on receiving a q, lowercase or uppercase.
+ */
 int main()
 {
     char input = '\0';
