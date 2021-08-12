@@ -18,8 +18,5 @@
     <ClCompile Include="EX1Q1.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="EX1Q2.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
   </ItemGroup>
 </Project>
