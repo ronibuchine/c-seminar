@@ -2,6 +2,7 @@
 //
 
 #include <stdio.h>
+#pragma warning(disable:4996)
 
 int main()
 {
@@ -9,7 +10,7 @@ int main()
     /* start accepting letters */
     while (1)
     { 
-        scanf_s("%c", &input);
+        scanf("%c", &input);
         if (input == 'Q' || input == 'q')
         {
             break;
