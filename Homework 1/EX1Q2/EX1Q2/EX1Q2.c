@@ -21,7 +21,7 @@ int main()
     /* start accepting letters -- stop on q/Q */
     while (1)
     {
-        scanf("%c", &input);
+        scanf(" %c", &input);
         if (input == 'Q' || input == 'q')
         {
             break;
