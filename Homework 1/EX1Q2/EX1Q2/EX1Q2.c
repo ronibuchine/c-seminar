@@ -5,17 +5,12 @@
 #include "capitalize.h"
 #pragma warning(disable:4996)
 
-void RemoveNewLine(char* string)
-{
-    int newLineIndex = strlen(string) - 1;
-    if (string[newLineIndex] == '\n')
-        string[newLineIndex] = '\0';
-}
+
 
 int main()
 {
     char input = '\0';
-    printf("Start typing a letter followed by enter\n");
+    printf("Start typing lowercase letters followed by enter\n");
     printf("To stop the program, type 'q' or 'Q'\n");
 
     /* start accepting letters -- stop on q/Q */
@@ -28,7 +23,7 @@ int main()
         }
         /* capitalize and print */
         capitalize(&input);
-        printf("%c", input);
+        printf("%c\n", input);
         
     }
     return 0;
