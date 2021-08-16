@@ -8,7 +8,7 @@
  /**
   * calculates length of a c-style string
   *
-  * @param str Pointer to null terminated buffer of bytes
-  * @return length of string, not including null character
+  * @param str Pointer to buffer of characters
+  * @return length of string
   */
-size_t MyStrlen(char* str);
+size_t GetStrLen(char* str);

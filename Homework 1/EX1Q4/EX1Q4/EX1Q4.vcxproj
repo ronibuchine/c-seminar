@@ -139,6 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="diamond.c" />
     <ClCompile Include="EX1Q4.c" />
   </ItemGroup>
   <ItemGroup>

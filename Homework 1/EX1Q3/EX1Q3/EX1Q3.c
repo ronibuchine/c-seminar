@@ -7,11 +7,11 @@
 
 #include "strlen.h"
 
-size_t MyStrlen(char* str)
+size_t GetStrLen(char* str)
 {
     size_t length = 0;
-    for (int i = 0; str[i] != '\0'; ++i)
-        ++length;
+    for (int i = 0; str[i] != '\0'; i++)
+        length++;
     return length;
 }
 
@@ -19,8 +19,9 @@ size_t MyStrlen(char* str)
 int main()
 {
     char buffer[LENGTH];
+    /* use fgets to deal with whitespaces */
     fgets(buffer, LENGTH, stdin);
-    int length = MyStrlen(buffer);
+    int length = GetStrLen(buffer);
     printf("length of entered string (including newline) is %d\n", length);
 }
 

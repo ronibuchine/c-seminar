@@ -139,10 +139,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="EX1Q6.cpp" />
+    <ClInclude Include="idfix.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="idfix.h" />
+    <ClCompile Include="EX1Q6.c" />
+    <ClCompile Include="idfix.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

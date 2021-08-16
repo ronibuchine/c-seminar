@@ -23,5 +23,8 @@
     <ClCompile Include="EX1Q5.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="idcheck.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

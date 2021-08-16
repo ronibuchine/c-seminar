@@ -139,7 +139,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="EX1Q8.cpp" />
+    <ClCompile Include="edges.c" />
+    <ClCompile Include="EX1Q8.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="edges.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

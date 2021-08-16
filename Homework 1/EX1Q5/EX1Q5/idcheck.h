@@ -7,9 +7,9 @@
 #define MAX_ID 999999999
 
  /**
-  * Maximal length of a an ID, not including the check digit
+  * Maximum length of a an ID, not including the checksum digit
   */
-#define ID_LENGTH_NO_CHECK_DIGIT 8 // this feels silly
+#define ID_LENGTH_NO_CHECK_DIGIT 8 
 
   /**
    * Checks whether an ID number is valid or not

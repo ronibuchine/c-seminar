@@ -140,6 +140,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="EX1Q5.c" />
+    <ClCompile Include="idcheck.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="idcheck.h" />
