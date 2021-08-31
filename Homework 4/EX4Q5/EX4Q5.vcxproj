@@ -21,7 +21,7 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{38197ad6-075a-4ebd-9b99-c9cc09999d88}</ProjectGuid>
+    <ProjectGuid>{18b0a7b9-4070-412c-93dc-ede2c11a4faf}</ProjectGuid>
     <RootNamespace>EX4Q5</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
@@ -139,7 +139,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="EX4Q5.cpp" />
+    <ClCompile Include="envp.c" />
+    <ClCompile Include="EX4Q5.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="envp.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

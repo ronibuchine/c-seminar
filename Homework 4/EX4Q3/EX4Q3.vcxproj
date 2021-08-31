@@ -139,7 +139,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="args.c" />
     <ClCompile Include="EX4Q3.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="args.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

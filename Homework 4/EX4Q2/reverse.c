@@ -7,11 +7,13 @@ void PrintReversedSentence(char* sentence)
 {
 	if (*sentence == '\0')
 	{
+		/* sentence is the empty string, do nothing */
 		return;
 	}
 	else
 	{
 		char* token = FindNextWord(sentence);
+		/* call function recursively using the call stack to reverse word order */
 		PrintReversedSentence(token);
 		PrintToNextSpace(sentence);
 	}
