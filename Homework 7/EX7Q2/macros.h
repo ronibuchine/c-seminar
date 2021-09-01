@@ -14,6 +14,8 @@ else if (strcmp((#t), "size_t") == 0 || strcmp((#t), "int") == 0)   \
 else if (strcmp((#t), "char*") == 0)                                \
     printf("Variable Name: %s\nValue: %s\n", (#x), (x));            \
 }
+#else
+#define TRACE_VAR(t, x) 
 #endif
 
 #define ARRAY_SIZE 10
