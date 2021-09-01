@@ -5,7 +5,12 @@
 #include "ziphelp.h"
 
 
-
+/**
+ * @brief EX8Q1.c : This file contains the 'main' function. Program execution begins and ends there.
+ * @param argc argument conter
+ * @param argv arguments
+ * @return error codes 0-4
+*/
 int main(int argc, char* argv[])
 {
     /* not the correct amount of arguments */
