@@ -23,7 +23,10 @@ size_t IsZipFile(char *filePath);
 */
 char *CreateUnzippedFileName(char* filePath);
 
-char* GetFileName(char* filePath);
-
+/**
+ * @brief given the full path to a file it will unzip the file and place in the directory of the executable
+ * @param filePath the full file path/ or relative file path to the executable
+ * @return ErrorCode_t of differing types depending on success or failure of extraction
+*/
 size_t UnzipFile(char* filePath);
 

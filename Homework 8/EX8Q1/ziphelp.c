@@ -19,9 +19,10 @@ size_t IsZipFile(char* filePath)
 char *CreateUnzippedFileName(char* filePath)
 {
     size_t length = strlen(filePath);
-    size_t index = length - 1;
-    for (;; --index)
+    
+    for (size_t index = length - 1; index >=0; --index)
     {
+        /* uses '/' as delimiter */
         if (filePath[index] == '/')
         {
             return filePath + index + 1;
