@@ -32,7 +32,7 @@
   </ItemGroup>
   <ItemGroup>
     <Object Include="Debug\miniz.obj">
-      <Filter>Source Files</Filter>
+      <Filter>Resource Files</Filter>
     </Object>
   </ItemGroup>
 </Project>

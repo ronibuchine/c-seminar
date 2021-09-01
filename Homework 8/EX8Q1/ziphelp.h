@@ -1,5 +1,13 @@
 #pragma once
 #include <stdio.h>
+typedef enum
+{
+    CODE_SUCCESSFUL,
+    ERROR_ARGC,
+    ERROR_EXT,
+    ERROR_UNKNOWN
+} ErrorCode_t;
+
 
 /**
  * @brief Function used for telling if a file is a zip file on a windows system
@@ -14,3 +22,8 @@ size_t IsZipFile(char *filePath);
  * @return the file path name without the suffix .zip
 */
 char *CreateUnzippedFileName(char* filePath);
+
+char* GetFileName(char* filePath);
+
+size_t UnzipFile(char* filePath);
+
