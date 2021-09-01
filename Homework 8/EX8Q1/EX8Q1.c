@@ -9,16 +9,17 @@
 int main(int argc, char* argv[])
 {
     /* not the correct amount of arguments */
-   /*if (argc != 2)
+    if (argc != 2)
     {
         printf("To use this program, type:\n./EX8Q1.exe <full-file-path.zip>");
         return ERROR_ARGC;
-    
-    if (!IsZipFile(argv[1]))
+    }
+    /* checks to see if zip file */
+    if (!IsZipFile(argv[1])) 
     {
         printf("To use this program, type:\n./EX8Q1.exe <full-file-path.zip>");
         return ERROR_EXT;
-    }*/
+    }
 
     return UnzipFile(argv[1]);
 }
